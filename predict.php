@@ -21,6 +21,14 @@
                 
               </ul>
             </nav>
+            <nav id="nav">
+              <ul>
+                
+                <li><a href="#top" id="top-link" class="skel-panels-ignoreHref"><span class="icon icon-th">Opening Price Prediction</span></a></li>
+                <li><a href="#closing" id="portfolio-link" class="skel-panels-ignoreHref"><span class="icon icon-th">Closing Price Prediction</span></a></li>
+                
+              </ul>
+            </nav>
             
         </div>
         
@@ -40,7 +48,7 @@
 				<!-- Intro -->
 					<section id="top" class="one">
 						<div class="container">
-						<header><h2>Opening Price Prediction For <?php echo $_GET["stock"];?> : -</h2></header>
+						<header><h3>Opening Price Prediction For <?php echo $_GET["stock"];?> : -</h3></header>
 						<?php
 	
 							if (isset($_GET["stock"])) {
@@ -49,7 +57,12 @@
 							}
 
 						?>
-						<header><h2>Closing Price Prediction For <?php echo $_GET["stock"];?> : -</h2></header>
+
+						</div>
+					</section>
+					<section id="closing" class="two">
+						<div class="container">
+						<header><h3>Closing Price Prediction For <?php echo $_GET["stock"];?> : -</h3></header>
 						<?php
 	
 							if (isset($_GET["stock"])) {
@@ -61,7 +74,7 @@
 
 						</div>
 					</section>
-			</div>
+		</div>
 
 	</body>
 </html>

@@ -134,7 +134,7 @@
 						<div class="container">
 
 							
-							<h3>About The Project</h3>
+							<h2>About The Project</h2>
 							<hr/>
 
 							
@@ -145,7 +145,7 @@
 					<section id="team" class="one">
 						<div class="container">
 
-							<h3>Team Iterators</h3>
+							<h2>Team Iterators</h2>
 							<hr/>
 							<div class="row">
 								<div class="4u">

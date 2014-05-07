@@ -282,7 +282,7 @@
     $probable_range = find_probable_range($stock, "open", $range);
 
     for ($i=0; $i < 4 ; $i++) { 
-      echo "There is a " . $probabilities[$i]*100 . "% chance that the tommorrows opening price of {$stock} will lie from $" . $probable_range[$i] . " to $" . $probable_range[$i+1];
+      echo "<p>There is a " . $probabilities[$i]*100 . "% chance that the tommorrows opening price of {$stock} will lie from $" . $probable_range[$i] . " to $" . $probable_range[$i+1] . "</p>";
       echo "<br/>";
     }
   }
@@ -309,7 +309,7 @@
     $probable_range = find_probable_range($stock, "close", $range);
 
     for ($i=0; $i < 4 ; $i++) { 
-      echo "There is a " . $probabilities[$i]*100 . "% chance that the tommorrows closing price of {$stock} will lie from $" . $probable_range[$i] . " to $" . $probable_range[$i+1];
+      echo "<p>There is a " . $probabilities[$i]*100 . "% chance that the tommorrows closing price of {$stock} will lie from $" . $probable_range[$i] . " to $" . $probable_range[$i+1] . "</p>";
       echo "<br/>";
     }
   }
