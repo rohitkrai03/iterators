@@ -26,13 +26,11 @@
         
         <div class="bottom">
 
-          <!-- Social Icons -->
-            <ul class="icons">
-              <li><a href="http://www.facebook.com/rohit293" class="icon icon-facebook"><span>Facebook</span></a></li>
-              <li><a href="#" class="icon icon-github"><span>Github</span></a></li>
-              <li><a href="rohitkrai03@gmail.com" class="icon icon-envelope"><span>Email</span></a></li>
+          <ul class="icons">
+              <li><a href="http://www.facebook.com/rohit293" target="_blank" class="icon icon-facebook"><span>Facebook</span></a></li>
+              <li><a href="https://github.com/rohitkrai03/iterators" target="_blank" class="icon icon-github"><span>Github</span></a></li>
+              <li><a href="mailto:rohitkrai03@gmail.com" class="icon icon-envelope"><span>Email</span></a></li>
             </ul>
-        
         </div>
       
       </div>

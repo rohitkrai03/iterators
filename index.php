@@ -17,7 +17,9 @@
               <ul>
                 <li><a href="#top" id="top-link" class="skel-panels-ignoreHref"><span class="icon icon-home">Home</span></a></li>
                 <li><a href="#portfolio" id="portfolio-link" class="skel-panels-ignoreHref"><span class="icon icon-th">Predict The Future</span></a></li>
-                <li><a href="#about" id="about-link" class="skel-panels-ignoreHref"><span class="icon icon-user">About</span></a></li>
+                <li><a href="#yahoo" id="portfolio-link" class="skel-panels-ignoreHref"><span class="icon icon-th">Yahoo Finance</span></a></li>
+                <li><a href="#about" id="about-link" class="skel-panels-ignoreHref"><span class="icon icon-user">About The Project</span></a></li>
+                <li><a href="#team" id="about-link" class="skel-panels-ignoreHref"><span class="icon icon-user">Our Team</span></a></li>
                 <li><a href="#contact" id="contact-link" class="skel-panels-ignoreHref"><span class="icon icon-envelope">Contact</span></a></li>
               </ul>
             </nav>
@@ -28,9 +30,9 @@
 
           <!-- Social Icons -->
             <ul class="icons">
-              <li><a href="http://www.facebook.com/rohit293" class="icon icon-facebook"><span>Facebook</span></a></li>
-              <li><a href="#" class="icon icon-github"><span>Github</span></a></li>
-              <li><a href="rohitkrai03@gmail.com" class="icon icon-envelope"><span>Email</span></a></li>
+              <li><a href="http://www.facebook.com/rohit293" target="_blank" class="icon icon-facebook"><span>Facebook</span></a></li>
+              <li><a href="https://github.com/rohitkrai03/iterators" target="_blank" class="icon icon-github"><span>Github</span></a></li>
+              <li><a href="mailto:rohitkrai03@gmail.com" class="icon icon-envelope"><span>Email</span></a></li>
             </ul>
         
         </div>
@@ -48,7 +50,7 @@
 							
 							<img src="images/logo.png"/>
 	
-							
+							<hr/>
 							<form name="quotes" role="form" method="post" action="get_stock.php">
 								<div class="row half">
 									<div class="12u"><input type="text" class="text" name="symbol" placeholder="Enter The Stock Symbol" /></div>
@@ -72,8 +74,8 @@
 					<section id="portfolio" class="two">
 						<div class="container">
 							
-							<p>Select On a Stock to Dive Into The Future of Stock Market Trading.</p>
-						
+							<h4>Select On a Stock to Dive Into The Future of Stock Market Trading.</h4>
+							<hr/>
 							<div class="row">
 								<div class="4u">
 									<article class="item">
@@ -117,22 +119,71 @@
 						</div>
 					</section>
 
+					<section id="yahoo" class="one">
+						<div class="container">
+							<!-- Start of Yahoo! Finance code -->
+							<iframe allowtransparency="true" marginwidth="0" marginheight="0" hspace="0" vspace="0" frameborder="0" scrolling="no" src="http://badge.finance.yahoo.com/instrument/1.0/GOOG,FB,MSFT,AMZN,IBM,AAPL,GE,TWTR/badge;chart=1y;news=5;quote/HTML?AppID=PGIdZ1QoWGOdXdhlFXcOUERCopTq&sig=4KGCIVjnjfEqOJ9lchD19WqNps8-&t=1399448920379" width="300px" height="1654px"><a href="http://finance.yahoo.com">Yahoo! Finance</a><br/><a href="http://finance.yahoo.com/q?s=GOOG">Quote for GOOG</a></iframe>
+							<!-- End of Yahoo! Finance code -->
+
+						</div>
+					</section>
+
+
 				<!-- About Me -->
 					<section id="about" class="three">
 						<div class="container">
 
-							<header>
-								<h2>About The Project</h2>
-							</header>
-
-							<img src="images/pic08.jpg" alt="" />
 							
-							<p>Tincidunt eu elit diam magnis pretium accumsan etiam id urna. Ridiculus 
-							ultricies curae quis et rhoncus velit. Lobortis elementum aliquet nec vitae 
-							laoreet eget cubilia quam non etiam odio tincidunt montes. Elementum sem 
-							parturient nulla quam placerat viverra mauris non cum elit tempus ullamcorper 
-							dolor. Libero rutrum ut lacinia donec curae mus vel quisque sociis nec 
-							ornare iaculis.</p>
+							<h3>About The Project</h3>
+							<hr/>
+
+							
+							<p>Stock market analysis and prediction is one of the interesting areas in which past data could be used to anticipate and predict data and information about future. Technically speaking, this area is of high importance for professionals in the industry of finance and stock exchange as they can lead and direct future trends or manage crises over time. Using the stochastic processes called Markov Chains, we sought out to predict the immediate future stock prices for a few given companies. We found the moving averages for the data and the grouped them into ten different states of results. We then applied Markov Chain calculations to the data to create a 4x4 transitional probability matrix. Using this transition matrix we solved a system of equations and found 4 steady states that were variables that represented the probability that a stock price for a given day would fall into one of the ten states. When we use this information we can apply our actual data to these equations and predict the next stock prices for the near future. We were able to successfully predict the next few days of stock prices using this method.</p>
+
+						</div>
+					</section>
+					<section id="team" class="one">
+						<div class="container">
+
+							<h3>Team Iterators</h3>
+							<hr/>
+							<div class="row">
+								<div class="4u">
+									<article class="item">
+										<a href="http://www.facebook.com/rohit293" target="_blank" class="image full"><img src="img/rohit.jpeg" alt="" /></a>
+										<header>
+											<h3>Rohit Kumar Rai</h3>
+										</header>
+									</article>
+									
+								</div>
+								
+								<div class="4u">
+									<article class="item">
+										<a href="http://www.facebook.com/satrajit.das.9" target="_blank" class="image full"><img src="img/satrajit.jpg" alt="" /></a>
+										<header>
+											<h3>Satrajit Das</h3>
+										</header>
+									</article>
+									<article class="item">
+										<a href="http://www.facebook.com/rima.roy.351" target="_blank" class="image full"><img src="img/rima.jpg" alt="" /></a>
+										<header>
+											<h3>Rima Roy</h3>
+										</header>
+									</article>
+								</div>
+								<div class="4u">
+									<article class="item">
+										<a href="http://www.facebook.com/akshat.singh.14" target="_blank" class="image full"><img src="img/akshat.jpg" alt="" /></a>
+										<header>
+											<h3>Akshat Kumar</h3>
+										</header>
+									</article>
+									
+								</div>
+							</div>
+							
+							
 
 						</div>
 					</section>
@@ -141,7 +192,7 @@
 					<section id="contact" class="four">
 						<div class="container">
 
-							<p>Feel free to drop a Message to Us!!!</p>
+							<h3>Feel free to drop a Message to Us!!!</h3>
 							
 							<form method="post" action="contact.php">
 								<div class="row half">
