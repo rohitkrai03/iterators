@@ -53,6 +53,7 @@ w = (max value – min value) / K, where ‘max value’ and ‘min value’ ref
 * Once each difference price was labelled with its corresponding interval, the number of transitions for each individual difference price interval to the next difference price interval was counted. The number of points belonging to each interval was also recorded. 
 * After this, the transition matrix was developed where each entry of the matrix is supposed to be the probability of the data points moving from, or transitioning from, one state to another, with the states corresponding to the appropriate rows and columns.
 * Our transition matrix is of the following form :-
+
 ![transition matrix][transition]
 
 [transition]: https://github.com/rohitkrai03/iterators/blob/master/docs/screens/transition.png
