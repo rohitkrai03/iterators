@@ -54,9 +54,10 @@ w = (max value – min value) / K, where ‘max value’ and ‘min value’ ref
 * After this, the transition matrix was developed where each entry of the matrix is supposed to be the probability of the data points moving from, or transitioning from, one state to another, with the states corresponding to the appropriate rows and columns.
 * Our transition matrix is of the following form :-
 
-![transition matrix][transition]
+![transition matrix][transition]      ![transition matrix][transition2]
 
 [transition]: https://github.com/rohitkrai03/iterators/blob/master/docs/screens/transition.png
+[transition2]: https://github.com/rohitkrai03/iterators/blob/master/docs/screens/transition2.png
 
 * Let us say, that our transition matrix is represented by Q.
 * We iteratively compute Q2, Q3, Q4, ……., Q8. 
@@ -106,7 +107,7 @@ Screens of Working Website
 ![About page for the project][screen7]
 
 * index.php#contact (Contact us page for the project)
-![Contact us page for the project][screen7]
+![Contact us page for the project][screen8]
 
 
 [screen1]: https://github.com/rohitkrai03/iterators/blob/master/docs/screens/screen1.png
