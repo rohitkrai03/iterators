@@ -110,11 +110,11 @@ Screens of Working Website
 ![Contact us page for the project][screen8]
 
 
-[screen1]: https://github.com/rohitkrai03/iterators/blob/master/docs/screens/screen1.png
-[screen2]: https://github.com/rohitkrai03/iterators/blob/master/docs/screens/screen2.png
-[screen3]: https://github.com/rohitkrai03/iterators/blob/master/docs/screens/screen3.png
-[screen4]: https://github.com/rohitkrai03/iterators/blob/master/docs/screens/screen4.png
-[screen5]: https://github.com/rohitkrai03/iterators/blob/master/docs/screens/screen5.png
-[screen6]: https://github.com/rohitkrai03/iterators/blob/master/docs/screens/screen6.png
-[screen7]: https://github.com/rohitkrai03/iterators/blob/master/docs/screens/screen7.png
-[screen8]: https://github.com/rohitkrai03/iterators/blob/master/docs/screens/screen8.png
+[screen1]: https://github.com/rohitkrai03/iterators/blob/master/docs/screens/screen1.jpg
+[screen2]: https://github.com/rohitkrai03/iterators/blob/master/docs/screens/screen2.jpg
+[screen3]: https://github.com/rohitkrai03/iterators/blob/master/docs/screens/screen3.jpg
+[screen4]: https://github.com/rohitkrai03/iterators/blob/master/docs/screens/screen4.jpg
+[screen5]: https://github.com/rohitkrai03/iterators/blob/master/docs/screens/screen5.jpg
+[screen6]: https://github.com/rohitkrai03/iterators/blob/master/docs/screens/screen6.jpg
+[screen7]: https://github.com/rohitkrai03/iterators/blob/master/docs/screens/screen7.jpg
+[screen8]: https://github.com/rohitkrai03/iterators/blob/master/docs/screens/screen8.jpg
